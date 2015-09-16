@@ -2,8 +2,7 @@ package = "torchutil"
 version = "scm-1"
 
 source = {
-    url = "git://github.com/ndronen/torchutil",
-    tag = "HEAD",
+    url = "git://github.com/ndronen/torchutil"
 }
 
 description = {
@@ -23,20 +22,20 @@ dependencies = {
 build = {
     type = "builtin",
     modules = {
-        kttorch = "kttorch/init.lua",
-        ["kttorch.LookupTableInputDeleter"] = "kttorch/LookupTableInputDeleter.lua",
-        ["kttorch.LookupTableInputReplacer"] = "kttorch/LookupTableInputReplacer.lua",
-        ["kttorch.LookupTableInputZeroer"] = "kttorch/LookupTableInputZeroer.lua",
-        ["kttorch.Renormers"] = "kttorch/Renormers.lua",
-        ["kttorch.Renormer"] = "kttorch/Renormer.lua",
-        ["kttorch.TemporalConvolutionRenormer"] = "kttorch/TemporalConvolutionRenormer.lua",
-        ["kttorch.LookupTableRenormer"] = "kttorch/LookupTableRenormer.lua",
-        ["kttorch.ImmutableModule"] = "kttorch/ImmutableModule.lua",
-        ["kttorch.IndexRecorder"] = "kttorch/IndexRecorder.lua",
-        ["kttorch.OutputRecorder"] = "kttorch/OutputRecorder.lua",
-        ["kttorch.InputPrinter"] = "kttorch/InputPrinter.lua",
-        ["kttorch.SentenceCompacter"] = "kttorch/SentenceCompacter.lua",
-        ["kttorch.NumberUnique"] = "kttorch/NumberUnique.lua",
-        ["kttorch.WordCount"] = "kttorch/WordCount.lua"
+        torchutil = "torchutil/init.lua",
+        ["torchutil.LookupTableInputDeleter"] = "torchutil/LookupTableInputDeleter.lua",
+        ["torchutil.LookupTableInputReplacer"] = "torchutil/LookupTableInputReplacer.lua",
+        ["torchutil.LookupTableInputZeroer"] = "torchutil/LookupTableInputZeroer.lua",
+        ["torchutil.Renormers"] = "torchutil/Renormers.lua",
+        ["torchutil.Renormer"] = "torchutil/Renormer.lua",
+        ["torchutil.TemporalConvolutionRenormer"] = "torchutil/TemporalConvolutionRenormer.lua",
+        ["torchutil.LookupTableRenormer"] = "torchutil/LookupTableRenormer.lua",
+        ["torchutil.ImmutableModule"] = "torchutil/ImmutableModule.lua",
+        ["torchutil.IndexRecorder"] = "torchutil/IndexRecorder.lua",
+        ["torchutil.OutputRecorder"] = "torchutil/OutputRecorder.lua",
+        ["torchutil.InputPrinter"] = "torchutil/InputPrinter.lua",
+        ["torchutil.SentenceCompacter"] = "torchutil/SentenceCompacter.lua",
+        ["torchutil.NumberUnique"] = "torchutil/NumberUnique.lua",
+        ["torchutil.WordCount"] = "torchutil/WordCount.lua"
     }
 }
